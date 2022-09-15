@@ -86,9 +86,9 @@ input wire [8 : 0] addrb;
 (* X_INTERFACE_INFO = "xilinx.com:interface:bram:1.0 BRAM_PORTB DOUT" *)
 output wire [4095 : 0] doutb;
 
-  blk_mem_gen_v8_4_4 #(
-    .C_FAMILY("virtexuplus"),
-    .C_XDEVICEFAMILY("virtexuplus"),
+  blk_mem_gen_v8_4_3 #(
+    .C_FAMILY("kintexuplus"),
+    .C_XDEVICEFAMILY("kintexuplus"),
     .C_ELABORATION_DIR("./"),
     .C_INTERFACE_TYPE(0),
     .C_AXI_TYPE(1),
@@ -161,7 +161,7 @@ output wire [4095 : 0] doutb;
     .C_DISABLE_WARN_BHV_RANGE(0),
     .C_COUNT_36K_BRAM("57"),
     .C_COUNT_18K_BRAM("0"),
-    .C_EST_POWER_SUMMARY("Estimated Power for IP     :     148.935104 mW")
+    .C_EST_POWER_SUMMARY("Estimated Power for IP     :     162.2016 mW")
   ) inst (
     .clka(clka),
     .rsta(1'D0),

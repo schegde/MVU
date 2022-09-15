@@ -2,7 +2,7 @@
 # Common variables for tcl build scripts
 #
 
-set xilinxpart xcvu9p-flgb2104-2-e
+set xilinxpart xcku5p-ffvd900-3-e
 
 #
 # Init commands
